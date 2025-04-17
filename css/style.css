@@ -41,7 +41,7 @@
     justify-content: space-between;
     
 }
-.navbar, .banner, .main, .action, .extra{
+.navbar, .banner, .main, .action, .extra, .more{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -51,8 +51,8 @@
     margin-top: 30px;
 }
 .banner-description{
-    font-size: 17px;
-    opacity: 60%;
+    font-size: 15px;
+    opacity: 40%;
 }
 .banner-title{
     color: white;
@@ -85,9 +85,10 @@
     font-weight: 600;
 }
 
+
 .main{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .action{
@@ -103,11 +104,32 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    background: #a09e9e;
-    padding: 30px;
+    background: #8a8989;
+    padding: 20px;
     border-radius: 10px;
 }
 .control{
+    height: 100%;
     width: 100%;
+    border-radius: 20px;
+}
+
+.more{
+    background-color: #d7d4d4;
+    padding: 20px;
+    gap: 15px;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.team{
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px;
+}
+.for{
+    color: #e43014;
+    font-weight: bold;
 }
