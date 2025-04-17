@@ -41,7 +41,7 @@
     justify-content: space-between;
     
 }
-.navbar, .banner{
+.navbar, .banner, .main, .action, .extra{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -83,4 +83,31 @@
     border-radius: 50px;
     border: 1px solid white;
     font-weight: 600;
+}
+
+.main{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.action{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.group{
+    border-radius: 50%;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background: #a09e9e;
+    padding: 30px;
+    border-radius: 10px;
+}
+.control{
+    width: 100%;
+    border-radius: 10px;
 }
