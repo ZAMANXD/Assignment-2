@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #FFFFFF;
+}
+.bg-primary{
+    background-color: #444444;
+}
+.brand{
+    color: #e43014;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-links{
+  text-align: center;
+  align-items: center;
+}
+
+.navbar{
+    justify-content: space-between;
+    
+}
+.navbar, .banner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* banner related style */
+.banner{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.banner-description{
+    font-size: 17px;
+    opacity: 60%;
+}
+.banner-title{
+    color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.part{
+    font-style: italic;
+    color: #a9a91e;
+}
+
+.banner-container{
+    margin-top: 70px;
+}
+.btn-primary{
+    background: #E6533C;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    
+}
+.btn-primary-2{
+    background: #444444;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-weight: 600;
+}
